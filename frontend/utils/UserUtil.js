@@ -31,6 +31,7 @@ module.exports = {
   },
 
   login: function(username, password){
+    debugger;
     $.ajax({
       method: "POST",
         url: "/session",

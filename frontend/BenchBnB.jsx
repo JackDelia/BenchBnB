@@ -6,6 +6,7 @@ var BenchStore = require("./stores/BenchStore"),
     Map = require("./components/Map"),
     Search = require("./components/Search"),
     BenchForm = require("./components/BenchForm"),
+    Login = require("./components/Login"),
     ReactRouter = require('react-router'),
     Router = ReactRouter.Router,
     Route = ReactRouter.Route,
@@ -31,6 +32,8 @@ var Router = (
     <Route path="/" component={App}>
       <IndexRoute component={Search}/>
       <Route path="benches/new" component={BenchForm}>
+      </Route>
+      <Route path="login" component={Login}>
       </Route>
     </Route>
   </Router>
