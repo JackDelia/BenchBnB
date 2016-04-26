@@ -1,0 +1,20 @@
+.bench-index {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.bench {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.map {
+width: 500px;
+height: 500px;
+}
+
+ *= require_tree .
+ *= require_self
+ */
